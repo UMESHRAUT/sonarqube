@@ -15,8 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          test
-          Learn React
+          Learn sonarqube
         </a>
       </header>
     </div>
