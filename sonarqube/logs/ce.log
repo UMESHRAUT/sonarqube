@@ -1,51 +1,17 @@
-2023.10.13 11:42:01 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
-2023.10.13 11:42:01 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
-2023.10.13 11:42:02 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
-2023.10.13 11:42:02 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
-2023.10.13 11:42:02 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
-2023.10.13 11:42:02 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
-2023.10.13 11:42:02 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
-2023.10.13 11:42:02 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
-2023.10.13 11:42:02 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
-2023.10.13 11:42:03 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
-2023.10.13 11:42:03 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
-2023.10.13 11:44:43 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
-2023.10.13 11:44:43 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
-2023.10.13 11:44:43 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
-2023.10.13 11:44:43 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
-2023.10.13 11:44:43 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
-2023.10.13 11:44:43 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
-2023.10.13 11:45:17 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
-2023.10.13 11:45:17 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
-2023.10.13 11:45:17 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
-2023.10.13 11:45:17 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
-2023.10.13 11:45:17 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
-2023.10.13 11:45:17 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
-2023.10.13 11:45:17 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
-2023.10.13 11:45:18 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
-2023.10.13 11:45:18 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
-2023.10.13 11:45:18 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
-2023.10.13 11:45:18 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
-2023.10.13 11:45:47 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
-2023.10.13 11:45:47 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
-2023.10.13 11:45:47 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
-2023.10.13 11:45:47 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
-2023.10.13 11:45:47 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
-2023.10.13 11:45:47 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
-2023.10.13 11:46:04 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
-2023.10.13 11:46:04 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
-2023.10.13 11:46:05 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
-2023.10.13 11:46:05 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
-2023.10.13 11:46:05 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
-2023.10.13 11:46:05 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
-2023.10.13 11:46:05 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
-2023.10.13 11:46:05 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
-2023.10.13 11:46:05 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
-2023.10.13 11:46:06 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
-2023.10.13 11:46:06 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
-2023.10.13 11:51:18 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
-2023.10.13 11:51:18 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
-2023.10.13 11:51:18 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
-2023.10.13 11:51:18 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
-2023.10.13 11:51:18 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
-2023.10.13 11:51:18 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2023.10.15 09:06:53 INFO  ce[][o.s.p.ProcessEntryPoint] Starting Compute Engine
+2023.10.15 09:06:54 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2023.10.15 09:06:54 INFO  ce[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2023.10.15 09:06:54 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2023.10.15 09:06:54 INFO  ce[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2023.10.15 09:06:54 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2023.10.15 09:06:54 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2023.10.15 09:06:54 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2023.10.15 09:06:54 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2023.10.15 09:06:55 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2023.10.15 09:06:55 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.10.15 09:09:48 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.10.15 09:09:48 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.10.15 09:09:48 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.10.15 09:09:48 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.10.15 09:09:48 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.10.15 09:09:48 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
