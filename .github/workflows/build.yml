@@ -3,7 +3,9 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 
 jobs:
@@ -17,11 +19,11 @@ jobs:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_TOKEN: 49cdb5915c08fb775b8c16116078abec8b5d35bd
+          SONAR_HOST_URL: https://www.sonarsource.com/
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
       - uses: sonarsource/sonarqube-quality-gate-action@master
         timeout-minutes: 10
         env:
-          SONAR_TOKEN: ${{ 49cdb5915c08fb775b8c16116078abec8b5d35bd }}
+          SONAR_TOKEN: 49cdb5915c08fb775b8c16116078abec8b5d35bd
