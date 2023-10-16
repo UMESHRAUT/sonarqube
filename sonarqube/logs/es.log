@@ -84,3 +84,9 @@
 2023.10.16 09:07:51 INFO  es[][o.e.g.GatewayService] recovered [6] indices into cluster_state
 2023.10.16 09:07:51 INFO  es[][o.e.h.n.s.HealthNodeTaskExecutor] Node [{sonarqube}{GJUB47cITY-IDRINrThKPg}] is selected as the current health node.
 2023.10.16 09:07:53 INFO  es[][o.e.c.r.a.AllocationService] current.health="GREEN" message="Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]]])." previous.health="RED" reason="shards started [[metadatas][0]]"
+2023.10.16 09:08:38 INFO  es[][o.e.n.Node] stopping ...
+2023.10.16 09:08:38 INFO  es[][o.e.r.s.FileSettingsService] shutting down watcher thread
+2023.10.16 09:08:38 INFO  es[][o.e.r.s.FileSettingsService] watcher service stopped
+2023.10.16 09:08:38 INFO  es[][o.e.n.Node] stopped
+2023.10.16 09:08:38 INFO  es[][o.e.n.Node] closing ...
+2023.10.16 09:08:38 INFO  es[][o.e.n.Node] closed

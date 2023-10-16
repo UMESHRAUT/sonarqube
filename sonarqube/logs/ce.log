@@ -26,3 +26,9 @@
 2023.10.16 09:08:01 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
 2023.10.16 09:08:02 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
 2023.10.16 09:08:02 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is started
+2023.10.16 09:08:37 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2023.10.16 09:08:37 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2023.10.16 09:08:37 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2023.10.16 09:08:37 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2023.10.16 09:08:37 INFO  ce[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2023.10.16 09:08:37 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
